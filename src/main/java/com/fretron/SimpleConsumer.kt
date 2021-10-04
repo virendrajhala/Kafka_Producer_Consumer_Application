@@ -28,7 +28,7 @@ fun main(){
 
         for(record in consumerRecords){
 
-            Thread.sleep(15000)
+            Thread.sleep(2000)
             // print the offset,key and value for the consumer records.
             println("Offset : ${record.offset()},   Key : ${record.key()},  Value : ${record.value()}")
 
